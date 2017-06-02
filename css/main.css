@@ -147,12 +147,23 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
+    background-image: url("bird.jpg");
+    background-color: #cccccc;
 }
 
 /* Home */
 
 .home {
     padding: 50px 0;
+
+}
+.home h2 {
+  color: #cc0000;
+}
+
+.home a {
+  color: #cc0000;
+
 }
 
 /* Features */
@@ -185,7 +196,21 @@ hr.small {
 /* Specs */
 .specs {
     padding: 50px 0;
+
 }
+
+dt {
+  color: #cc0000;
+
+}
+
+dl {
+  margin-top: 1em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /* Photos */
 
@@ -210,6 +235,7 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
 .fa-facebook {
   color: #cc0000;
 }
