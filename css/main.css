@@ -147,7 +147,6 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url("bird.jpg");
     background-color: #cccccc;
 }
 
@@ -234,6 +233,7 @@ dl {
 
 footer {
     padding: 100px 0;
+    background-color: #cccccc;
 }
 
 .fa-facebook {
